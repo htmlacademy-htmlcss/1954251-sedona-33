@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Каталог</title>
+    <link rel="stylesheet" href="styles/slyles.css">
 </head>
 <body>
     
@@ -12,47 +13,45 @@
   
     <header class="page-header">
         <nav class="navigation">
-     
-        </li>
+            <img class="body-logo" src="images/img/logo/logo-sedona.svg" width="139px" height="70px" alt="Логотип «Города Седона»">
+        
             <ul class="navigation-list">
                 <li class="navigation-item">
                     <a class="navigation-link" href="index.html">Главная</a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link"href="about-us">О Седоне</a>
+                    <a class="navigation-link" href="about-us">О Седоне</a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link"href="hotels">Гостиницы</a>
+                    <a class="navigation-link" href="hotels">Гостиницы</a>
                 </li>
             </ul>
             <ul class="navigation-user">
                 <li class="navigation-item">
-                    <a class="navigation-link"href="#">
-                        <span Class="visually-hidden">Поиск</span> 
-                    </a>
+                    <a class="navigation-link" href="#">
+                        <span Class="visually-hidden">Поиск</span></a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link"href="#">
-                        <span Class="visually-hidden">Избранное</span>
-                    </a>
+                    <a class="navigation-link" href="#">
+                        <span Class="visually-hidden">Избранное</span></a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link"href="hotels">Хочу сюда!</a>
+                    <a class="navigation-link" href="hotels">Хочу сюда!</a>
                 </li>
             </ul>
         </nav>
     </header>
     
-    
+    <section class="filter-catalog">
     <h1 class="">Гостиницы Седоны</h1>
     <ul class="breadcrumbs">
         <li class="breadcrumbs-item">
-            <a class="navigation-logo" src="#" href="">Гостиницы</a>
+            <a class="navigation-logo" href="">Гостиницы</a>
         </li>
     </ul>
     
 
-    <div class="wrapper">
+    
         <main class="main-catalog">
         <p class="catalog-item">Инфраструктура</p>
 
@@ -71,10 +70,11 @@
                 <label for="price-range">Стоимость,р:</label>
                 <input type="text" name="from">
                 <input type="text" name="to">
-               0<input type="range" name="price-range" id="price-range" min="0" max="10000" step="1">9000
-               <a class="button button-apply" type="button" href="#">Применить</a>
-               <a class="button button-reset" type="reset" href="#">Сбросить</a>
-                
+                <input type="range" name="price-range" id="price-range" min="0" max="10000" step="1">9000
+                <a class="button button-apply"  href="#">Применить</a>
+                <a class="button button-reset"  href="#">Сбросить</a>
+
+        </section>        
                 
                 <p>Найдено страниц:38</p>
 
@@ -82,13 +82,13 @@
                     <select class="select-control" aria-label="Сортировка">
                      <option value="cheap">Сначала дешёвые</option>
                      </select>
-                    </form>
+                </form>
 
 
                 <ul class="product-list">
                     <li class="product-card">
                         <a class="product-card-link" href="product.html" >
-                        <img class="product-card-img" src="#" alt="">
+                        <img class="product-card-img" src="/images/img/hotel-11.jpg" alt="Первая гостинница">
                         <h3 class="product-card-title">Amara Resort & Spa Гостиница</h3></a>
                         <b class="product-card-price">От 4000 ₽</b>
                         <a class="product-card-button" href="#">Подробнее</a>
@@ -99,7 +99,7 @@
 
                     <li class="product-card">
                         <a class="product-card-link" href="product.html" >
-                        <img class="product-card-img" src="#" alt="">
+                        <img class="product-card-img" src="/images/img/hotel-1-2.jpg" alt="Вторая гостинница">
                         <h3 class="product-card-title">Desert Quail Inn Гостиница</h3></a>
                         <b class="product-card-price">От 3000 ₽</b>
                         <a class="product-card-button" href="#">Подробнее</a>
@@ -110,7 +110,7 @@
 
                     <li class="product-card">
                         <a class="product-card-link" href="product.html" >
-                        <img class="product-card-img" src="#" alt="">
+                        <img class="product-card-img" src="/images/img/hotel-111.jpg" alt="Третья гостинница">
                         <h3 class="product-card-title">Villas at Poco Diablo Гостиница</h3></a>
                         <b class="product-card-price">От 2000 ₽</b>
                         <a class="product-card-button" href="#">Подробнее</a>
@@ -121,7 +121,7 @@
 
                     <li class="product-card">
                         <a class="product-card-link" href="product.html" >
-                        <img class="product-card-img" src="#" alt="">
+                        <img class="product-card-img" src="/images/img/hotel-1.jpg" alt="Четвертая гостинница">
                         <h3 class="product-card-title">GreenTree Inn Гостиница</h3></a>
                         <b class="product-card-price">От 3000 ₽</b>
                         <a class="product-card-button" href="#">Подробнее</a>
@@ -132,25 +132,43 @@
                 </ul>
 
 
-             </main>
+            <section class="section-button-load-more">
+                <button class="button-load-more" type="submit">Загрузить еще</button>    
+            </section>
+
+            </main>
+             
+
+            <section class="subscribtion-proposal-catalog">
+                <h2 class="Subscribe">Подпишитесь на рассылку</h2>
+                <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+                <form class="email-subscription" action="https://google.com/" method="post">
+                    <label for="subscribtion-email">E-mail</label> 
+                    <input class="subscribtion-field" placeholder="E-mail" type="email" name="subscribtion-email" id="subscribtion-email" required>
+                    <button class="button button-subscribe" type="submit">
+                        <span class="subscribe-action">Подписаться</span>
+                    </button>
+                </form>
+            </section> 
+
+
+            <footer class="page-footer">
+
+                <ul class="Social-networks">
+                    <li><a href="#"><img src="/images/img/logo/twitter.svg"></a></li>
+                    <li><a href="#"><img src="/images/img/logo/social-facebook.svg"></a></li>
+                    <li><a href="#"><img src="/images/img/logo/social-youtube.svg"></a></li>
+                </ul>
         
-
-
-        <footer class="page-footer">
-            <ul class="Social networks">
-    
-                <li><a href="#">Твиттер</a></li>
-                <li><a href="#">Фейсбук</a></li>
-                <li><a href="#">Ютуб</a></li>
-              </ul>
-    
-    
-         <section class="footer-contacts">
-            <a class="footer-contacts-address-phone" href="tel:+78128211212">+7 (812) 812-12-12</a>
-             <a href="htmlacademy.ru"> <img src="Group.png"  alt="ссылка на академию"> </a></h2>
-         </section>
-    
-        </footer>
+        
+             <section class="footer-contacts">
+                <h2 class="page-footer-title">
+                    +7 (812) 812-12-12
+                    <a href="htmlacademy.ru"><img src="Group.png"></a>
+                </h2>
+             </section>
+        
+            </footer>
 
 
     </div> 
