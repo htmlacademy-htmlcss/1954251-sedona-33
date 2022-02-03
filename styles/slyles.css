@@ -34,7 +34,7 @@
     width: 1200px;
     height: 767px;
     margin-top: 65px;
-    background-image: url(/images/img/index-background.jpg);
+    background-image: url(/images/index-background.jpg);
     background-repeat: no-repeat;
     
   }
@@ -188,7 +188,7 @@
     .subscribtion-proposal{
       width: 1200px;
       height: 411px;
-      background-image: url(/images/img/background.jpg);
+      background-image: url(/images/background.jpg);
     }
 
     .page-footer{
@@ -206,7 +206,7 @@
 
     /*стили каталога*/
     .filter-catalog{
-      background-image: url(/images/img/background.jpg);
+      background-image: url(/images/background.jpg);
       background-repeat: no-repeat;
       
     }
