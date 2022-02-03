@@ -197,11 +197,11 @@
       background: #FFFFFF;
     }
 
-    .Social-networks li{
+    .Social-networks{
       float: left;
       padding: 20px;
-
-    }
+      background: #FFFFFF;
+      }
 
 
     /*стили каталога*/
